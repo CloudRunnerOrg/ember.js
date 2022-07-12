@@ -1,8 +1,6 @@
 ---
 framework: mocha
 preRun:
-     env:
-          NODE_OPTIONS: "--max-old-space-size=8096"
      command:
         - /usr/local/bin/bundle --ping
         - yarn install
